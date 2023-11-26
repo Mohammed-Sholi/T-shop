@@ -1,0 +1,79 @@
+/* calling font family: Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEDEF;
+
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+/* Start Header */
+.header{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+
+}
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .logo img{
+    width: 30px;
+}
+.header .logo a{
+    font-family: 'Roboto', sans-serif;
+    color: #545BE8;
+}
+.header .links ul{
+    display: flex;
+    gap: 20px;
+    color: #101928;
+}
+.header .links ul a{
+    color: #101928;
+
+}
+.header .auth{
+    display: flex;
+    gap: 10PX;
+}
+.header .auth .login{
+    display: block;
+    padding: 5px 20px;
+    color: #545BE8;
+    border: 2px solid #545BE8;
+    border-radius: 5px;
+}
+.header .auth .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #545BE8;
+    border-radius: 5px;
+    color: #fff;
+}
+/* End Header */
